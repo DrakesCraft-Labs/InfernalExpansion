@@ -1,16 +1,16 @@
 messages:
   thermal-walk-rune:
-    success: "&a你已经成功将此符文应用到该物品上 &6岩浆行者 I&a."
-    fail: "&c你只能在一件物品上使用这个符文"
-    no-item: "&c你应该扔出你想要使用这个符文的物品"
+    success: "&aHas aplicado con éxito esta runa a este objeto. &6Caminante de magma I&a."
+    fail: "&cSólo puedes usar esta runa en un objeto."
+    no-item: "&cDebes tirar el objeto en el que quieres usar esta runa."
   portable-nether-teleporter:
-    nether-disabled: "&c此服务器未开启下界"
-    nether-world-not-set: "&c当前下界世界名未在配置中设置,请向服务器管理员寻求帮助"
-    nether-world-not-found: "&c配置中的下界世界不存在"
-    already-on-world: "&c您当前已处于下界"
-    cant-use-in-end: "&c您不能在末地中使用该物品"
-    teleporting: "&d传送中..."
-    already-being-teleported: "&c您已被传送"
+    nether-disabled: "&cThe Nether no está habilitado en este servidor"
+    nether-world-not-set: "&cEl nombre actual del mundo inferior no está establecido en la configuración.,Por favor pida ayuda al administrador de su servidor"
+    nether-world-not-found: "&cEl mundo inferior en configuración no existe."
+    already-on-world: "&cActualmente estás en el Nether"
+    cant-use-in-end: "&cNo puedes usar este artículo al final."
+    teleporting: "&dTransmitiendo..."
+    already-being-teleported: "&chas sido enviado"
 
 default-nether-world: "world_nether"
 travel-to-nether-from-end: false # If you wanna be able to use the Portable Nether Teleporter in the end

@@ -1,47 +1,43 @@
-# 下界工艺
+<p align="center">
+  <img src="docs/banner.svg" width="100%" alt="INFERNALEXPANSION Animated Banner" />
+</p>
 
-##  A Slimefun4 addon that adds a variety of nether related stuff.
+# InfernalExpansion
 
-### Download:
-[Click here](https://github.com/NotKirzu/InfernalExpansion/releases)
+Addon de **Slimefun 4** centrado en la exploración, maquinaria, talismanes y recursos místicos del Nether. Portado y optimizado por **DrakesCraft Labs** para Paper/Purpur 1.21.11 en Java 21.
 
-### Requirements:
-**Java 17** <br>
-**Paper 1.18** <br>
-**[Slimefun RC-31](https://github.com/Slimefun/Slimefun4/releases/tag/RC-31)**
+---
 
-### Support, Bugs or Suggestions
-* Create an issue [here](https://github.com/NotKirzu/InfernalExpansion/issues/new)
-* Create a [fork](https://github.com/NotKirzu/InfernalExpansion/fork) and open a pull request
-* Contact me on Discord (Kiirzu#1204 / 686766483350880351)
+## 🎯 Objetivo
 
-### Blocks:
-* **Piglin Attractor:**
-* - Attract nearest zombified piglins to the block
-* - Consumption: 25 J/s
-* - Energy storage: 2,000 J
+Expandir las mecánicas y recompensas en la dimensión del Nether, introduciendo maquinaria infernal, talismanes protectores y automatizaciones adaptadas a biomas de fuego y lava.
 
-### Talismans:
-* **Piglin Talisman:**
-* - Having this talisman in your inventory prevent zombified piglins from targeting you. (Also can be Ender infused)
+---
 
-### Runes:
-* **Bed Rune:**
-* - When you drop this rune above a bed in the nether increases the explosion radius.
-* - Has 5 uses
-* **Thermal Walk Rune:**
-* - Drop this rune near dropped boots to enchant them with **Thermal Walk I**. This enchantment creates obsidian while walking over lava and causes the wearer to be fire-resistant
+## ⚡ Características Principales
 
-### Tools:
-* **Portable Nether Portal:**
-* - Teleports you to the nether from anywhere
-* - Consumption: 125 J per use
-* - Energy capacity: 250 J
-* **Pyromaniac Blaze Rod:**
-* - Ignite surrounding blocks in a radius of 5 meters
-* - Consumption: 25 J per use
-* - Energy capacity: 200 J
-* **Fireball Launcher:**
-* - Throws a fireball to the direction you are looking for.
-* - Consumption: 25 J per use
-* - Energy capacity: 250 J
+- **Maquinaria Infernal**:
+  - *Atractor de Piglins*: Atrae piglins zombificados cercanos mediante energía eléctrica Slimefun.
+  - Generadores y condensadores adaptados a fuentes de calor.
+- **Talismanes y Reliquias**:
+  - Talismanes de resistencia a la lava, negociación pacífica con piglins y velocidad en arena de almas.
+- **Materiales y Runas del Nether**:
+  - Nuevas aleaciones, esencias demoníacas y componentes para recetas de alto nivel.
+- **Compatibilidad**:
+  - Traducción al español e integración total con el core `Slimefun4-Drake`.
+
+---
+
+## 🛠️ Entorno y Compatibilidad
+
+- **Servidor**: Paper / Purpur 1.21.11
+- **Java**: 21
+- **Dependencias**:
+  - `Slimefun4-Drake`
+
+---
+
+## 📜 Créditos y Origen
+
+- **Autor original**: `Kiirzu` (`NotKirzu`)
+- **Adaptación y Mantenimiento 1.21.11**: **DrakesCraft Labs**
