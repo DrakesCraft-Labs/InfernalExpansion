@@ -1,47 +1,72 @@
-# 下界工艺
+<div align="center">
 
-##  A Slimefun4 addon that adds a variety of nether related stuff.
+  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/InfernalExpansion/main/banner.svg" alt="InfernalExpansion Banner" width="920" />
 
-### Download:
-[Click here](https://github.com/NotKirzu/InfernalExpansion/releases)
+# ⚡ InfernalExpansion
 
-### Requirements:
-**Java 17** <br>
-**Paper 1.18** <br>
-**[Slimefun RC-31](https://github.com/Slimefun/Slimefun4/releases/tag/RC-31)**
+**REINO INFERNAL · RUNAS DE PIGLIN · TALISMANES**
 
-### Support, Bugs or Suggestions
-* Create an issue [here](https://github.com/NotKirzu/InfernalExpansion/issues/new)
-* Create a [fork](https://github.com/NotKirzu/InfernalExpansion/fork) and open a pull request
-* Contact me on Discord (Kiirzu#1204 / 686766483350880351)
+<p>
+  <a href="https://github.com/DrakesCraft-Labs/InfernalExpansion"><img src="https://img.shields.io/badge/GitHub-InfernalExpansion-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
+</p>
 
-### Blocks:
-* **Piglin Attractor:**
-* - Attract nearest zombified piglins to the block
-* - Consumption: 25 J/s
-* - Energy storage: 2,000 J
+</div>
 
-### Talismans:
-* **Piglin Talisman:**
-* - Having this talisman in your inventory prevent zombified piglins from targeting you. (Also can be Ender infused)
+> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
+> 
+> * 🎮 **IP del Servidor**: `play.drakescraft.net` *(Java 1.21.11 & Bedrock)*
+> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rR7FbfCt9Y)
+> * 🌐 **Web & Guía**: [drakescraft.net](https://drakescraft.net) — 🛒 **Tienda**: [tienda.drakescraft.net](https://tienda.drakescraft.net)
+> 
+> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
 
-### Runes:
-* **Bed Rune:**
-* - When you drop this rune above a bed in the nether increases the explosion radius.
-* - Has 5 uses
-* **Thermal Walk Rune:**
-* - Drop this rune near dropped boots to enchant them with **Thermal Walk I**. This enchantment creates obsidian while walking over lava and causes the wearer to be fire-resistant
+---
 
-### Tools:
-* **Portable Nether Portal:**
-* - Teleports you to the nether from anywhere
-* - Consumption: 125 J per use
-* - Energy capacity: 250 J
-* **Pyromaniac Blaze Rod:**
-* - Ignite surrounding blocks in a radius of 5 meters
-* - Consumption: 25 J per use
-* - Energy capacity: 200 J
-* **Fireball Launcher:**
-* - Throws a fireball to the direction you are looking for.
-* - Consumption: 25 J per use
-* - Energy capacity: 250 J
+---
+
+## 📖 Descripción General
+
+**InfernalExpansion** es un componente esencial del ecosistema **DrakesCraft Labs** para servidores Minecraft **Paper / Purpur 1.21.11**.
+
+Expansión del Nether con talismanes de Piglin, runas infernales, forjas ígneas y aleaciones ardientes.
+
+Todo el contenido y sus mecánicas se integran y desbloquean desde la **Guía de Slimefun (`/sf guide`)** sin necesidad de comandos especiales.
+
+---
+
+## ⚙️ Características y Sistemas Principales
+
+* 🚀 **Rendimiento Optimizado**: Construido para Java 21 sobre Paper 1.21.11 con recolección limpia de entidades y sin telemetría externa.
+* 🛡️ **Seguridad e Integridad**: Transacciones seguras en memoria y compatibilidad completa con almacenamiento `BlockStorage`.
+* 🎮 **Integración Total**: Compatible con Slimefun4-Drake, redes de logística, sistemas de energía y economía global.
+
+---
+
+## 📋 Compatibilidad Técnica
+
+| Parámetro | Requisito |
+|---|---|
+| **Servidor** | Paper / Purpur / Folia **1.21.11** |
+| **Java** | **Java 21** LTS |
+| **Core** | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
+| **Lado** | 100% Servidor (Server-side) |
+
+---
+
+## 📥 Instalación
+
+1. Descarga la versión compilada `.jar` desde las releases del repositorio o Modrinth.
+2. Colócala en la carpeta `plugins/` de tu servidor Minecraft junto a `Slimefun4-Drake.jar`.
+3. Inicia o reinicia el servidor.
+
+---
+
+<div align="center">
+
+**Desarrollado y Mantenido por [DrakesCraft Labs](https://github.com/DrakesCraft-Labs)**  
+Licencia **GPL-3.0-only** / **MIT**.
+
+</div>
