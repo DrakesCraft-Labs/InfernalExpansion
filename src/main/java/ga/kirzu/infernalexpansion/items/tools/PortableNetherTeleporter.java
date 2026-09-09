@@ -95,7 +95,7 @@ public class PortableNetherTeleporter extends SlimefunItem implements Rechargeab
                 beingTeleported.add(player.getUniqueId());
 
                 Location loc = player.getLocation();
-                player.addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 160, 1, false, false, false));
+                player.addPotionEffect(new PotionEffect(PotionEffectType.NAUSEA, 160, 1, false, false, false));
                 new BukkitRunnable() {
                     int count = 3;
 

@@ -19,7 +19,6 @@ import org.jetbrains.annotations.Nullable;
 
 import javax.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -47,7 +46,7 @@ public class PiglinTalisman extends Talisman {
             return false;
         }
 
-        Object canEffectsBeApplied = access(talisman.getClass(), "canEffectsBeApplied", p);
+        Object canEffectsBeApplied = access(talisman, "canEffectsBeApplied", new Class<?>[]{Player.class}, p);
         if ((canEffectsBeApplied != null && !((boolean) canEffectsBeApplied))) {
             return false;
         }
@@ -57,7 +56,7 @@ public class PiglinTalisman extends Talisman {
         if (SlimefunUtils.containsSimilarItem(p.getInventory(), talismanItem, true)) {
             return talisman.canUse(p, true);
         } else {
-            Object enderVariant = access(talisman.getClass(), "getEnderVariant");
+            Object enderVariant = access(talisman, "getEnderVariant", new Class<?>[0]);
             if (!(enderVariant instanceof ItemStack enderTalisman)) {
                 return false;
             }
@@ -70,12 +69,12 @@ public class PiglinTalisman extends Talisman {
         }
     }
 
-    private static Object access(Class<?> clazz, String methodName, Object ...args) {
+    private static Object access(Talisman talisman, String methodName, Class<?>[] parameterTypes, Object... args) {
         try {
-            Method method = clazz.getDeclaredMethod(methodName);
+            Method method = Talisman.class.getDeclaredMethod(methodName, parameterTypes);
             method.setAccessible(true);
-            return method.invoke(args);
-        } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
+            return method.invoke(talisman, args);
+        } catch (ReflectiveOperationException | SecurityException e) {
             return null;
         }
     }
